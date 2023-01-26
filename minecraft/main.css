@@ -19,7 +19,7 @@
 body {
     background-image: "bg.png";
 }
-img {
+.image {
     width: 84%;
 }
 iframe {
