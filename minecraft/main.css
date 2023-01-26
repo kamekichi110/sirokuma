@@ -19,3 +19,10 @@
 body {
     background-image: "bg.png";
 }
+img {
+    width: 84%;
+}
+iframe {
+    width: 94%;
+    height: 90px;
+}
