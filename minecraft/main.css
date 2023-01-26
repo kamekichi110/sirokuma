@@ -1,0 +1,21 @@
+.size8 {
+    font-size: 8px;
+}
+.size16 {
+    font-size: 16px;
+}
+.size28 {
+    font-size: 28px;
+}
+.size32 {
+    font-size: 32px;
+}
+.size48 {
+    font-size: 48px;
+}
+.size72 {
+    font-size: 72px;
+}
+body {
+    background-image: "bg.";
+}
