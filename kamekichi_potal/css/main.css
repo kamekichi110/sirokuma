@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'main';
+    src: url(font/KosugiMaru-Regular.ttf);
+}
+body {
+    background-image: url(../image/back/bg_image.png);
+}
+h1 {
+    font-family: main;
+}
+h2 {
+    font-family: main;
+}
+h3 {
+    font-family: main;
+}
+h4 {
+    font-family: main;
+}
+p {
+    font-family: main;
+    line-height: 1.7;
+}
+article {
+    width: 70%;
+}
+aside {
+    width: 24%;
+}
+.news {
+    display: flex;
+    justify-content: space-between;
+}
