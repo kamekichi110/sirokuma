@@ -1,11 +1,12 @@
 {
-    "theme_color": "#91ff8b",
+    "theme_color": "#7ed321",
     "background_color": "#b8e986",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "https://kamekichi110.github.io/sirokuma/kamekichi_potal/",
     "name": "kamekichi_potal",
-    "short_name": "kame_potal",
+    "short_name": "kamekichi potal",
+    "description": "\u304b\u3081\u304d\u3061\u30dd\u30fc\u30bf\u30eb",
     "icons": [
         {
             "src": "/icon-192x192.png",
