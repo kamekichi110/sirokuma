@@ -32,8 +32,8 @@ aside {
     justify-content: space-between;
 }
 .iframe1 {
-    width: auto;
-    height: auto;
+    width: 98%;
+    height: 600px;
 }
 .div1{
    width: 15%; 
