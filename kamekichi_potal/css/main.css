@@ -22,12 +22,28 @@ p {
     line-height: 1.7;
 }
 article {
-    width: 70%;
+    width: 64%;
 }
 aside {
-    width: 24%;
+    width: 20%;
 }
-.news {
+#news {
     display: flex;
     justify-content: space-between;
+}
+.iframe1 {
+    width: auto;
+    height: auto;
+}
+.div1{
+   width: 15%; 
+}
+footer {
+    width: 100%;
+}
+header{
+    background-color: yellowgreen;
+}
+body {
+    background-image: url(image/back/bg_image.png);
 }
