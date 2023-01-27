@@ -50,8 +50,13 @@ footer {
 header{
     background-color: yellowgreen;
 }
-body {
+.body {
     background-image: url(https://kamekichi110.github.io/sirokuma/kamekichi_potal/image/back/bg_image.png);
-    width: 800px;
+    width: 100%;
+    height: auto;
+}
+.body1 {
+    background-image: url(https://kamekichi110.github.io/sirokuma/kamekichi_potal/image/back/bg_image.png);
+    width: 600px;
     height: auto;
 }
