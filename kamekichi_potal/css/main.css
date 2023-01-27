@@ -31,6 +31,8 @@ aside {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    padding: 1.7%;
 }
 .iframe1 {
     width: 98%;
@@ -47,4 +49,5 @@ header{
 }
 body {
     background-image: url(image/back/bg_image.png);
+    background-size: auto;
 }
