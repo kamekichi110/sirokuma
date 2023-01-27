@@ -52,5 +52,6 @@ header{
 }
 body {
     background-image: url(https://kamekichi110.github.io/sirokuma/kamekichi_potal/image/back/bg_image.png);
-    background-size: auto;
+    width: 100%;
+    height: 2000px;
 }
