@@ -23,7 +23,7 @@ p {
 }
 article {
     display: flexbox;
-    width: 70%;
+    width: 100%;
 }
 aside {
     display: flexbox;
