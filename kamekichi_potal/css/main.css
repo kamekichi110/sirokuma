@@ -29,7 +29,7 @@ aside {
     display: flexbox;
     width: 20%;
 }
-.news {
+#news {
     flex: 1;
     display: flex;
     justify-content: space-between;
