@@ -22,9 +22,11 @@ p {
     line-height: 1.7;
 }
 article {
+    display: flexbox;
     width: 64%;
 }
 aside {
+    display: flexbox;
     width: 20%;
 }
 #news {
@@ -39,6 +41,7 @@ aside {
     height: 600px;
 }
 .div1{
+    display: flexbox;
    width: 15%; 
 }
 footer {
@@ -48,6 +51,6 @@ header{
     background-color: yellowgreen;
 }
 body {
-    background-image: url(image/back/bg_image.png);
+    background-image: url(https://kamekichi110.github.io/sirokuma/kamekichi_potal/image/back/bg_image.png);
     background-size: auto;
 }
