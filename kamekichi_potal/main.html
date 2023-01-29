@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>kamekichi-potal</title>
+        <meta content="かめ吉ポータルサイト">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="stream/favicon.ico">
+        <link rel="icon" href="stream/favicon.ico">
+        <link rel="manifest" href="manifest.webmanifest" />
+        <link rel="apple-touch-icon" sizes="180x180" href="icon-192x192.png">
+            <script>
+                    window.addEventListener('load', function () {
+                                if ('serviceWorker' in navigator) {
+                                                navigator.serviceWorker.register("sw.js")
+                                                                    .then(function (registration) {
+                                                                                            console.log("serviceWorker registed.");
+                                                                                                                }).catch(function (error) {
+                                                                                                                                        console.warn("serviceWorker error.", error);
+                                                                                                                                                            });
+                                                                                                                                                                        }
+                                                                                                                                                                                });
+                                                                                                                                                                                    </script>
+    </head>
+    <body class="body">
+        <center>
+        <header>
+            <img src="image/main.png" alt="kamekichi image" width="256px">
+            <h1>kamekichi-potal</h1>
+        </header>
+        <div class="news" class="div1">
+            <br>
+            <h2>news <br></h2>
+            <br>
+            <br>
+            <h3>2023/01/27 <br></h3>
+            <br>
+            <p>かめ吉ポータルサイト運用開始<br></p>
+            <br>
+        </div>
+        <article class="news">
+            <h1>home <br></h1>
+            <br>
+            <br>
+            <br>
+            <h2>discord <br></h2>
+            <br>
+            <h3>login page <br></h3>
+            <p>link : <a href="https://discord.com/login">jump!</a><br></p>
+            <br>
+            <h2>twitter <br></h2>
+            <br>
+            <h3>login <br></h3>
+            <p>link : <a href="https://twitter.com">jump!</a><br></p>
+            <br>
+            <br>
+            <h3>kamekichi audio streaming</h3>
+            <br>
+            <a href="stream/index.html">move</a>
+            <br>
+            <iframe src="stream/index.html" frameborder="1" width="88%" height="600px">iframe tag...</iframe>
+        </article>
+        <aside class="news">
+            <h2>info <br></h2>
+            <br>
+            <br>
+            <h3>site map (wait)</h3>
+        </aside>
+        <br>
+        <br>
+        <br>
+        <h1>kamekichi edit tool</h1>
+        <br>
+        <h2>link</h2>
+        <p><a href="editor/index.html">move</a></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <p>©︎ kamekichi110.</p>
+        </footer>
+        </center>
+    </body>
+</html>
