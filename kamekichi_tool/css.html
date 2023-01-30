@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>css edit</title>
+  <script>
+    function save() {
+      // テキストエリアより文字列を取得
+      const txt = document.getElementById('txt').value;
+      if (!txt) { return; }
+
+      // 文字列をBlob化
+      const blob = new Blob([txt], { type: 'text/plain' });
+
+      // ダウンロード用のaタグ生成
+      const a = document.createElement('a');
+      a.href =  URL.createObjectURL(blob);
+      a.download = 'style.css';
+      a.click();
+    };
+  </script>
+</head>
+<body>
+    <h1>css editor</h1>
+  <button onclick="save();">Save Text</button>
+  <br />
+  <textarea id="txt" cols="98%" rows="500"></textarea>
+</body>
+</html>

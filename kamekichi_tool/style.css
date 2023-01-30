@@ -1,0 +1,16 @@
+@font-face {
+    font-family: main;
+    src: url(../kamekichi_potal/css/font/KosugiMaru-Regular.ttf);
+}
+textarea {
+    background-image: url(./bg.jpeg);
+}
+h1 {
+    font-family: main;
+}
+iframe {
+    background-color: lightskyblue;
+}
+body {
+    background-color: aquamarine;
+}
