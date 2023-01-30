@@ -8,6 +8,11 @@
         <link rel="icon" href="stream/favicon.ico">
         <link rel="manifest" href="manifest.webmanifest" />
         <link rel="apple-touch-icon" sizes="180x180" href="icon-192x192.png">
+        <style>
+            font0 {
+                font-size: 200%;
+            }
+        </style>
             <script>
                     window.addEventListener('load', function () {
                                 if ('serviceWorker' in navigator) {
@@ -22,8 +27,11 @@
                                                                                                                                                                                     </script>
     </head>
     <body background-color="aquamarine">
+        <center>
+        <img src="icon-192x192.png" alt="icon">
         <h1>認証ページ</h1>
-        <input type="button" value="認証" onclick="gate();">
+        <input type="button" value="認証" onclick="gate();" width="100px" height="30px" class="font-0">
+        </center>
         <script type="text/javascript">
                 function gate() {
                    var UserInput = prompt("パスワードを入力して下さい:","");
