@@ -3,7 +3,64 @@
     "date": "2024/05/02/08:48",
     "data": {
         "tobu": {
-            "noda": [],
+            "noda": [
+                {
+                    "name": "大宮",
+                    "en": "Ōmiya",
+                    "hira": "おおみや",
+                    "num": "TD1",
+                    "change": ["JR埼京線","JR川越線","JR京浜東北線","JR高崎線","JR宇都宮線","湘南新宿ライン","上野東京ライン","埼玉新都市交通線"]
+                },
+                {
+                  "name": "北大宮",
+                  "en": "Kita-ōmiya",
+                  "hira": "きたおおみや",
+                  "num": "TD2",
+                  "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "大宮公園",
+                    "en": "Ōmiya-kōen",
+                    "hira": "おおみやこうえん",
+                    "num": "TD3",
+                    "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "大和田",
+                    "en": "Ōwada",
+                    "hira": "おおわだ",
+                    "num": "TD4",
+                    "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "七里",
+                    "en": "Nanasato",
+                    "hira": "ななさと",
+                    "num": "TD5",
+                    "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "岩槻",
+                    "en": "Iwatuki",
+                    "hira": "いわつき",
+                    "num": "TD6",
+                    "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "東岩槻",
+                    "en": "Higashi-iwatsuki",
+                    "hira": "ひがしいわつき",
+                    "num": "TD7",
+                    "change": ["乗り換え路線なし"]
+                },
+                {
+                    "name": "豊春",
+                    "en": "Toyoharu",
+                    "hira": "とよはる",
+                    "num": "TD8",
+                    "change": ["乗り換え路線なし"]
+                }
+            ],
             "tojo": []
         }
     }
