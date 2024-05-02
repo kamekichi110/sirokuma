@@ -1,0 +1,3 @@
+function stationLoad() {
+    $.getJSON
+}
